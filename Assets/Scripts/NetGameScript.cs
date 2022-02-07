@@ -17,7 +17,7 @@ public class NetGameScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Testing Web Hook Comment
+        
     }
 
     private void OnMouseUpAsButton()
