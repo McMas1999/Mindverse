@@ -1,0 +1,3 @@
+rep "MindVerse@Mindverse@cloud"
+  path "/"
+    smartbranch "/main"
