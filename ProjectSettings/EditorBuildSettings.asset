@@ -5,37 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/BootAnimation.unity
-    guid: 4556dd5e4e48c214bb95e5c6c1587cfb
-  - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: a5daed535c02a3b4a973535ea35118c1
-  - enabled: 1
-    path: Assets/Scenes/TS1.unity
+  - enabled: 0
+    path: Assets/Scenes/TutorialScreen.unity
     guid: 80a14c6ec4f724281b5da47b43f3eb9c
-  - enabled: 1
-    path: Assets/Scenes/TS2.unity
-    guid: 36f3bfb79bbab492f955c43a7d5ee9d3
-  - enabled: 1
-    path: Assets/Scenes/TS3.unity
-    guid: 094eb739edbe742d8a095ed2377729af
-  - enabled: 1
-    path: Assets/Scenes/TS3a.unity
-    guid: 2f5667512b089442288940f8287887c5
-  - enabled: 1
-    path: Assets/Scenes/TS4.unity
-    guid: 4029b1ef2d9e1462682a7093578da850
-  - enabled: 1
-    path: Assets/Scenes/TS5.unity
-    guid: 6beb079a620fa4feda9e8a80b4d5a5ef
-  - enabled: 0
-    path: Assets/Scenes/TutorialScene3.unity
-    guid: b577ac01e61744f80838c5a98876d45f
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/Scenes/TutorialScene5.unity
-    guid: 98b0aeec0de094d5cadcbe436b9df3ca
   m_configObjects: {}
