@@ -7,12 +7,11 @@ public class NetGameScript : MonoBehaviour
 {
     public GameObject tile;
     public SpriteRenderer tileColor;
-    //public GameObject Board;
     public bool isActive;
     private object activatedColor = (0, 255, 255);
     private object defaultColor = (63, 106, 54);
     public bool correctPosition;
-    public int correctRotation = Convert.ToInt32(null); 
+    public int correctRotation = Convert.ToInt32(null);
 
     // Update is called once per frame
     void Update()
@@ -65,6 +64,6 @@ public class NetGameScript : MonoBehaviour
         {
             correctPosition = false;
         }
-        isActivated(tileColor, correctPosition);
+        //isActivated(tileColor, correctPosition);
     }
 }
