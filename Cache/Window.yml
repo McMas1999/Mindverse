@@ -1,0 +1,379 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Ink.meta
+    - Assets/Ink/Demos.meta
+    - Assets/Ink/Demos/Basic Demo.meta
+    - Assets/Ink/Demos/Basic Demo.unitypackage
+    - Assets/Ink/Demos/Basic Demo.unitypackage.meta
+    - Assets/Ink/Demos/Basic Demo/Basic Demo.unity
+    - Assets/Ink/Demos/Basic Demo/Basic Demo.unity.meta
+    - Assets/Ink/Demos/Basic Demo/Ink.meta
+    - Assets/Ink/Demos/Basic Demo/Ink/story.ink
+    - Assets/Ink/Demos/Basic Demo/Ink/story.ink.meta
+    - Assets/Ink/Demos/Basic Demo/Ink/story.json
+    - Assets/Ink/Demos/Basic Demo/Ink/story.json.meta
+    - Assets/Ink/Demos/Basic Demo/Prefabs.meta
+    - Assets/Ink/Demos/Basic Demo/Prefabs/Button.prefab
+    - Assets/Ink/Demos/Basic Demo/Prefabs/Button.prefab.meta
+    - Assets/Ink/Demos/Basic Demo/Prefabs/Text.prefab
+    - Assets/Ink/Demos/Basic Demo/Prefabs/Text.prefab.meta
+    - Assets/Ink/Demos/Basic Demo/Scripts.meta
+    - Assets/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs
+    - Assets/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs.meta
+    - Assets/Ink/Demos/Basic Demo/Scripts/Editor.meta
+    - Assets/Ink/Demos/Basic Demo/Scripts/Editor/BasicInkExampleEditor.cs
+    - Assets/Ink/Demos/Basic Demo/Scripts/Editor/BasicInkExampleEditor.cs.meta
+    - Assets/Ink/Demos/Basic Demo/Scripts/QuitGameOnKeypress.cs
+    - Assets/Ink/Demos/Basic Demo/Scripts/QuitGameOnKeypress.cs.meta
+    - Assets/Ink/Editor.meta
+    - Assets/Ink/Editor/Core.meta
+    - Assets/Ink/Editor/Core/Compiler.meta
+    - Assets/Ink/Editor/Core/Compiler/Auto Compiler.meta
+    - Assets/Ink/Editor/Core/Compiler/Auto Compiler/InkPostProcessor.cs
+    - Assets/Ink/Editor/Core/Compiler/Auto Compiler/InkPostProcessor.cs.meta
+    - Assets/Ink/Editor/Core/Compiler/InkCompiler.cs
+    - Assets/Ink/Editor/Core/Compiler/InkCompiler.cs.meta
+    - Assets/Ink/Editor/Core/Compiler/UnityInkFileHandler.cs
+    - Assets/Ink/Editor/Core/Compiler/UnityInkFileHandler.cs.meta
+    - Assets/Ink/Editor/Core/Ink Library.meta
+    - Assets/Ink/Editor/Core/Ink Library/InkCompilerLog.cs
+    - Assets/Ink/Editor/Core/Ink Library/InkCompilerLog.cs.meta
+    - Assets/Ink/Editor/Core/Ink Library/InkFile.cs
+    - Assets/Ink/Editor/Core/Ink Library/InkFile.cs.meta
+    - Assets/Ink/Editor/Core/Ink Library/InkLibrary.cs
+    - Assets/Ink/Editor/Core/Ink Library/InkLibrary.cs.meta
+    - Assets/Ink/Editor/Core/Ink Settings.meta
+    - Assets/Ink/Editor/Core/Ink Settings/InkSettings.cs
+    - Assets/Ink/Editor/Core/Ink Settings/InkSettings.cs.meta
+    - Assets/Ink/Editor/Core/Ink Settings/InkSettingsEditor.cs
+    - Assets/Ink/Editor/Core/Ink Settings/InkSettingsEditor.cs.meta
+    - Assets/Ink/Editor/Core/InkEditorUtils.cs
+    - Assets/Ink/Editor/Core/InkEditorUtils.cs.meta
+    - Assets/Ink/Editor/InkEditor.asmdef
+    - Assets/Ink/Editor/InkEditor.asmdef.meta
+    - Assets/Ink/Editor/Tools.meta
+    - Assets/Ink/Editor/Tools/Build Validation.meta
+    - Assets/Ink/Editor/Tools/Build Validation/InkPreBuildValidationCheck.cs
+    - Assets/Ink/Editor/Tools/Build Validation/InkPreBuildValidationCheck.cs.meta
+    - Assets/Ink/Editor/Tools/File Icons.meta
+    - Assets/Ink/Editor/Tools/File Icons/InkBrowserIcons.cs
+    - Assets/Ink/Editor/Tools/File Icons/InkBrowserIcons.cs.meta
+    - Assets/Ink/Editor/Tools/File Icons/Resources.meta
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon-Large.psd
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon-Large.psd.meta
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon.psd
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon.psd.meta
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkCompileManualIcon.psd
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkCompileManualIcon.psd.meta
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkDefaultTemplate.txt
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkDefaultTemplate.txt.meta
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkErrorIcon.psd
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkErrorIcon.psd.meta
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-Large.psd
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-Large.psd.meta
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-retina.psd
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-retina.psd.meta
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon.psd
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon.psd.meta
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkTodoIcon.psd
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkTodoIcon.psd.meta
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkUnknownFileIcon.psd
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkUnknownFileIcon.psd.meta
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkWarningIcon.psd
+    - Assets/Ink/Editor/Tools/File Icons/Resources/InkWarningIcon.psd.meta
+    - Assets/Ink/Editor/Tools/Ink Inspector.meta
+    - Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetEditor.cs
+    - Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetEditor.cs.meta
+    - Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetInspector.cs
+    - Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetInspector.cs.meta
+    - Assets/Ink/Editor/Tools/Ink Inspector/InkInspector.cs
+    - Assets/Ink/Editor/Tools/Ink Inspector/InkInspector.cs.meta
+    - Assets/Ink/Editor/Tools/Player Window.meta
+    - Assets/Ink/Editor/Tools/Player Window/InkHistoryContentItem.cs
+    - Assets/Ink/Editor/Tools/Player Window/InkHistoryContentItem.cs.meta
+    - Assets/Ink/Editor/Tools/Player Window/InkPlayerWindow.cs
+    - Assets/Ink/Editor/Tools/Player Window/InkPlayerWindow.cs.meta
+    - Assets/Ink/Editor/Tools/Startup Window.meta
+    - Assets/Ink/Editor/Tools/Startup Window/InkUnityIntegrationStartupWindow.cs
+    - Assets/Ink/Editor/Tools/Startup Window/InkUnityIntegrationStartupWindow.cs.meta
+    - Assets/Ink/Editor/Tools/Startup Window/Resources.meta
+    - Assets/Ink/Editor/Tools/Startup Window/Resources/InkLogoIcon.png
+    - Assets/Ink/Editor/Tools/Startup Window/Resources/InkLogoIcon.png.meta
+    - Assets/Ink/Extras.meta
+    - Assets/Ink/Extras/Sublime3Syntax.zip
+    - Assets/Ink/Extras/Sublime3Syntax.zip.meta
+    - Assets/Ink/InkLibs.meta
+    - Assets/Ink/InkLibs/Ink-Libraries.asmdef
+    - Assets/Ink/InkLibs/Ink-Libraries.asmdef.meta
+    - Assets/Ink/InkLibs/InkCompiler.meta
+    - Assets/Ink/InkLibs/InkCompiler/CharacterRange.cs
+    - Assets/Ink/InkLibs/InkCompiler/CharacterRange.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/CharacterSet.cs
+    - Assets/Ink/InkLibs/InkCompiler/CharacterSet.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/CommandLineInput.cs
+    - Assets/Ink/InkLibs/InkCompiler/CommandLineInput.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/Compiler.cs
+    - Assets/Ink/InkLibs/InkCompiler/Compiler.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/FileHandler.cs
+    - Assets/Ink/InkLibs/InkCompiler/FileHandler.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/CommentEliminator.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/CommentEliminator.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_AuthorWarning.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_AuthorWarning.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CharacterRanges.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CharacterRanges.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Choices.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Choices.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CommandLineInput.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CommandLineInput.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Conditional.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Conditional.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Content.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Content.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Divert.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Divert.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Expressions.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Expressions.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Include.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Include.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Knot.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Knot.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Logic.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Logic.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Sequences.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Sequences.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Statements.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Statements.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Tags.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Tags.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Whitespace.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Whitespace.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/InkStringConversionExtensions.cs
+    - Assets/Ink/InkLibs/InkCompiler/InkStringConversionExtensions.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/AuthorWarning.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/AuthorWarning.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Choice.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Choice.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Conditional.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Conditional.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConditionalSingleBranch.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConditionalSingleBranch.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConstantDeclaration.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConstantDeclaration.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ContentList.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ContentList.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/DivertTarget.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/DivertTarget.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Expression.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Expression.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ExternalDeclaration.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ExternalDeclaration.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowLevel.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowLevel.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FunctionCall.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FunctionCall.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Gather.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Gather.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/INamedContent.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/INamedContent.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IWeavePoint.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IWeavePoint.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Identifier.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Identifier.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IncludedFile.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IncludedFile.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Knot.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Knot.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/List.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/List.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ListDefinition.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ListDefinition.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Number.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Number.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs
+    - Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/Plugins.meta
+    - Assets/Ink/InkLibs/InkCompiler/Plugins/Plugin.cs
+    - Assets/Ink/InkLibs/InkCompiler/Plugins/Plugin.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/Plugins/PluginManager.cs
+    - Assets/Ink/InkLibs/InkCompiler/Plugins/PluginManager.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/Stats.cs
+    - Assets/Ink/InkLibs/InkCompiler/Stats.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/StringParser.meta
+    - Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs
+    - Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs.meta
+    - Assets/Ink/InkLibs/InkCompiler/StringParser/StringParserState.cs
+    - Assets/Ink/InkLibs/InkCompiler/StringParser/StringParserState.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime.meta
+    - Assets/Ink/InkLibs/InkRuntime/CallStack.cs
+    - Assets/Ink/InkLibs/InkRuntime/CallStack.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Choice.cs
+    - Assets/Ink/InkLibs/InkRuntime/Choice.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/ChoicePoint.cs
+    - Assets/Ink/InkLibs/InkRuntime/ChoicePoint.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Container.cs
+    - Assets/Ink/InkLibs/InkRuntime/Container.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/ControlCommand.cs
+    - Assets/Ink/InkLibs/InkRuntime/ControlCommand.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/DebugMetadata.cs
+    - Assets/Ink/InkLibs/InkRuntime/DebugMetadata.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Divert.cs
+    - Assets/Ink/InkLibs/InkRuntime/Divert.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Error.cs
+    - Assets/Ink/InkLibs/InkRuntime/Error.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Flow.cs
+    - Assets/Ink/InkLibs/InkRuntime/Flow.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Glue.cs
+    - Assets/Ink/InkLibs/InkRuntime/Glue.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/INamedContent.cs
+    - Assets/Ink/InkLibs/InkRuntime/INamedContent.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/InkList.cs
+    - Assets/Ink/InkLibs/InkRuntime/InkList.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/JsonSerialisation.cs
+    - Assets/Ink/InkLibs/InkRuntime/JsonSerialisation.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/ListDefinition.cs
+    - Assets/Ink/InkLibs/InkRuntime/ListDefinition.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/ListDefinitionsOrigin.cs
+    - Assets/Ink/InkLibs/InkRuntime/ListDefinitionsOrigin.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/NativeFunctionCall.cs
+    - Assets/Ink/InkLibs/InkRuntime/NativeFunctionCall.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Object.cs
+    - Assets/Ink/InkLibs/InkRuntime/Object.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Path.cs
+    - Assets/Ink/InkLibs/InkRuntime/Path.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Pointer.cs
+    - Assets/Ink/InkLibs/InkRuntime/Pointer.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Profiler.cs
+    - Assets/Ink/InkLibs/InkRuntime/Profiler.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/PushPop.cs
+    - Assets/Ink/InkLibs/InkRuntime/PushPop.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/SearchResult.cs
+    - Assets/Ink/InkLibs/InkRuntime/SearchResult.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/SimpleJson.cs
+    - Assets/Ink/InkLibs/InkRuntime/SimpleJson.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/StatePatch.cs
+    - Assets/Ink/InkLibs/InkRuntime/StatePatch.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Story.cs
+    - Assets/Ink/InkLibs/InkRuntime/Story.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/StoryException.cs
+    - Assets/Ink/InkLibs/InkRuntime/StoryException.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/StoryState.cs
+    - Assets/Ink/InkLibs/InkRuntime/StoryState.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs
+    - Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Tag.cs
+    - Assets/Ink/InkLibs/InkRuntime/Tag.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Value.cs
+    - Assets/Ink/InkLibs/InkRuntime/Value.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/VariableAssignment.cs
+    - Assets/Ink/InkLibs/InkRuntime/VariableAssignment.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/VariableReference.cs
+    - Assets/Ink/InkLibs/InkRuntime/VariableReference.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/VariablesState.cs
+    - Assets/Ink/InkLibs/InkRuntime/VariablesState.cs.meta
+    - Assets/Ink/InkLibs/InkRuntime/Void.cs
+    - Assets/Ink/InkLibs/InkRuntime/Void.cs.meta
+    - Assets/Ink/README.md
+    - Assets/Ink/README.md.meta
+    - Assets/Ink/package.json
+    - Assets/Ink/package.json.meta
+    - Assets/Scenes/Directions.unity
+    - Assets/Scenes/Directions.unity.meta
+    - Assets/Scenes/L1S1.unity
+    - Assets/Scenes/L1S1.unity.meta
+    - Assets/Scenes/L1S2.unity
+    - Assets/Scenes/L1S2.unity.meta
+    - Assets/Scenes/L1S3.unity
+    - Assets/Scenes/L1S3.unity.meta
+    - Assets/Scenes/L1S4.unity
+    - Assets/Scenes/L1S4.unity.meta
+    - Assets/Scenes/TS1.unity
+    - Assets/Scenes/TS1.unity.meta
+    - Assets/Scenes/TS2.unity
+    - Assets/Scenes/TS2.unity.meta
+    - Assets/Scenes/TS3.unity
+    - Assets/Scenes/TS3.unity.meta
+    - Assets/Scenes/TS3a.unity
+    - Assets/Scenes/TS3a.unity.meta
+    - Assets/Scenes/TS4.unity
+    - Assets/Scenes/TS4.unity.meta
+    - Assets/Scenes/TS5.unity
+    - Assets/Scenes/TS5.unity.meta
+    - Assets/Scripts/ChoiceScript.cs
+    - Assets/Scripts/DialogueController.cs
+    - Assets/Scripts/DialogueManager.cs
+    - Assets/Scripts/DialogueManager.cs.meta
+    - Assets/Scripts/DialogueTrigger.cs
+    - Assets/Scripts/DialogueTrigger.cs.meta
+    - Assets/Scripts/MultipleChoice.cs
+    - Assets/Scripts/MultipleChoice.cs.meta
+    - Assets/Sprites/Room-Hallway_setting1080p.png
+    - Assets/Sprites/Room-Hallway_setting1080p.png.meta
+    - Assets/Sprites/Thoma (1).png
+    - Assets/Sprites/Thoma (1).png.meta
+    - Assets/Sprites/circle(Sage).png
+    - Assets/Sprites/circle(Sage).png.meta
+    - Assets/Sprites/janidefault (1).psd
+    - Assets/Sprites/janidefault (1).psd.meta
+    - Assets/Sprites/janidefault.psd
+    - Assets/Sprites/janidefault.psd.meta
+    - Assets/Sprites/office.png
+    - Assets/Sprites/office.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
